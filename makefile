@@ -24,7 +24,7 @@ install: comp
 		sed -i 's/\btz local/tztime local/g' ~/.config/i3status/config; \
 	fi
 	
-	@echo "Reloading i3 configuration..."
+	@echo "Reloading i3 configuration hm"
 	i3-msg reload
 	
-	@echo "Installation complete!"
+	@echo "Installation complete hm"
