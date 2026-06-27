@@ -51,4 +51,3 @@ The Pomodoro block appears on the left of the status bar.
 - `i3/statusw.sh` — launcher
 
 Clean. Fast. No bullshit.
-```
