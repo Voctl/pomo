@@ -3,11 +3,13 @@ import sys
 import json
 import os
 
+#Denis baba yorgun
+
 def get_pomo_block():
-    status_path = '/tmp/pomo_status'
+    statusp = '/tmp/pomo_status'
     if os.path.exists(status_path):
         try:
-            with open(status_path, 'r') as f:
+            with open(statusp, 'r') as f:
                 data = json.load(f)
                 full_text = data.get('full_text', '').strip()
                 if full_text:
