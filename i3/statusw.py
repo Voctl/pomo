@@ -7,7 +7,7 @@ import os
 
 def get_pomo_block():
     statusp = '/tmp/pomo_status'
-    if os.path.exists(status_path):
+    if os.path.exists(statusp):
         try:
             with open(statusp, 'r') as f:
                 data = json.load(f)
